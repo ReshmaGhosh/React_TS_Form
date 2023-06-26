@@ -1,0 +1,19 @@
+/* .product-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding-top: 50px;
+} */
+.product-container {
+  border: 1px solid black;
+  padding: 10px;
+}
+.image img {
+  width: 150px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding-top: 50px;
+}
